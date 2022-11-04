@@ -3,7 +3,6 @@ import { useDispatch } from "react-redux";
 import { action } from "../redux/formReducerSlice";
 import { DatePicker, Space, Select } from "antd";
 import { store } from "../redux/store";
-import "./Label.css";
 const Label = ({ item }) => {
   console.log(store.getState());
   const dispatch = useDispatch();
